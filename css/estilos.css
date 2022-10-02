@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+
+@font-face {font-family: "Gilroy ExtraBold"; src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); }
+
+@font-face {
+    font-family:Gilroy, sans-serif;
+    src: url(../TIPOGRAFÍA/Gilroy-ExtraBold.otf);
+    src: url(../TIPOGRAFÍA/Gilroy-Regular.ttf);
+}
+
+html{
+    font-family: Gilroy, sans-serif;
+    background-color: #000000;;
+    color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: #000000;;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+li{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20rem;
+}
+
+.logoRojoYBlanco{
+    width: 35rem;
+}
+
+.nosotros{
+    background-color: #FFFFFF;
+    color: #000000;;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18rem;
+}
+
+.cardNosotros1{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .cardNosotros2{
+    
+} */
+
+h3{
+    font-family:"Gilroy ExtraBold";
+    font-size: 4vw;
+    line-height: 0.7;
+}
+
+.wePregunta{
+    display: flex;
+    flex-direction: row;
+}
+
+#we{
+    color: #d84d46;
+}
+
+.parrafo{
+    max-width: 20vw;
+    padding: 2vh;
+}
+
+.cardContainer{
+    display: flex;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+}
+
+.h2{
+    font-family:"Gilroy ExtraBold";
+}
+
+.cardTitle{
+    color: #d84d46;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+max-width: 20vw;
+}
+
+.fotosCard{
+    width: 20vw;
+    height: 22vw;
+}
+
+.mapaYForm{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 20vh 20vw;
+}
+
+.map{
+    width: 15vw;
+    height: 25vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0vh 1vw;
+}
+
+input{
+    background-color: #ECECEC;
+    border: none;
+    width: 30vw;
+    height: 3.5vh;
+    margin: 1vh 1vw;
+    margin-top: 0vh;
+}
+
+#mensaje{
+    height: 7vh;
+}
+::placeholder{
+    text-align: initial;
+}
+
+.submitButton{
+    border-radius: 30px;
+    border: none;
+    background-color: #AC61CC;
+    color: #E4E0E0;
+    display: inline-block;
+    width: 5vw;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+}
+
+.fondoRosa{
+    background-color: #D9544D ;
+    display: flex;
+    justify-content: space-around ;
+    padding: 1vw;
+}
+
+.logoNegro{
+    width: 5vw;
+}
+
+.socialMedia{
+    display: flex;
+}
+
+.logoSM{
+    width: 15px;
+    padding: 15px;
+}
+
+.parallax{
+    background: #FFFFFF fixed no-repeat 50% 50%;
+    background-size: cover ;
+    width: 100%;
+}
+
+#seccion1{
+    background-image: url(../FOTOS/1.jpg);
+    height: 50vh;
+}
+
+#seccion2{
+    background-image: url(../FOTOS/2.jpg);
+    height: 50vh;
+}
